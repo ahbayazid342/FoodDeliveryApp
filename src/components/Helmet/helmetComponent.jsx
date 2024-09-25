@@ -1,7 +1,8 @@
 import React from "react";
+import "../../styles/footer.css";
 
 const Helmet = (props) => {
-  document.title = "Food Ordering App -" + props.title;
+  document.title = "Food ordering app -" + props.title;
   return <div className="w-100">{props.children}</div>;
 };
 
